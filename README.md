@@ -30,7 +30,7 @@ Step 3) Go ahead set us up some cron jobs to make sure my stuff gets synced out 
     s3-sync::cron {'a whitty backup job resource title':
       user       => 'your username',
       localpath  => '/path/to/your/files/you/want/synced',
-      bucketpath => 'bucketname/bucketfolder',
+      bucketpath => 'bucketname/bucketfolder/',
       backuptime => [ '12', '00' ],
     }
 
