@@ -1,4 +1,4 @@
-puppet-s3-sync
+puppet-s3sync
 ==============
 
 A very simple puppet module for keeping things in sync with S3.
