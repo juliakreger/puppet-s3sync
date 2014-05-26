@@ -11,11 +11,11 @@ I broke this module into 3 individual invocations, which you'd likely want to ma
 
 Step 1) Lets make sure s3cmd is installed.
 
-    class {'s3-sync': }
+    class {'s3sync': }
 
 Step 2) Lets Setup a .s3cfg file!
 
-    s3-sync::user { 'a whitty resource title':
+    s3sync::user { 'a whitty resource title':
       user           => 'your username',
       aws_key_id     => 'your aws key id',
       aws_secret_key => 'your aws secret key',
@@ -27,7 +27,7 @@ Part of the complexity for this setp is due to puppets insistance that all paths
 
 Step 3) Go ahead set us up some cron jobs to make sure my stuff gets synced out to S3.
 
-    s3-sync::cron {'a whitty backup job resource title':
+    s3sync::cron {'a whitty backup job resource title':
       user       => 'your username',
       localpath  => '/path/to/your/files/you/want/synced',
       bucketpath => 'bucketname/bucketfolder/',
