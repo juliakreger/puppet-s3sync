@@ -1,0 +1,17 @@
+{
+  "name": "juliakreger-s3sync",
+  "version": "0.1.0",
+  "author": "juliakreger",
+  "summary": "A module that enables easy S3 based backups",
+  "license": "Apache 2.0",
+  "source": "https://github.com/juliakreger/puppet-s3sync",
+  "project_page": "https://github.com/juliakreger/puppet-s3sync",
+  "issues_url": "https://github.com/juliakreger/puppet-s3sync/issues",
+  "dependencies": [
+    {
+      "version_range": ">= 1.0.0",
+      "name": "puppetlabs-stdlib"
+    }
+  ]
+}
+
