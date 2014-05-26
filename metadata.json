@@ -7,11 +7,6 @@
   "source": "https://github.com/juliakreger/puppet-s3sync",
   "project_page": "https://github.com/juliakreger/puppet-s3sync",
   "issues_url": "https://github.com/juliakreger/puppet-s3sync/issues",
-  "dependencies": [
-    {
-      "version_range": ">= 1.0.0",
-      "name": "puppetlabs-stdlib"
-    }
-  ]
+  "dependencies": []
 }
 
