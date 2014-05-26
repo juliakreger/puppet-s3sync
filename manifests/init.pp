@@ -1,4 +1,4 @@
-class s3-sync {
+class s3sync {
   $s3cmdpackage = $operatingsystem ? {
     'SmartOS'  => 'py27-s3cmd',
     default    => 's3cmd',

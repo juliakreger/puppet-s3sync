@@ -1,4 +1,4 @@
-define s3-sync::cron  ( $ensure = "present", $user, $backuptime, $localpath, $bucketpath ) {
+define s3sync::cron  ( $ensure = "present", $user, $backuptime, $localpath, $bucketpath ) {
   $s3cmdlocation = $operatingsystem ? {
     'SmartOS' => '/opt/local/bin',
     default   => '/usr/bin',
