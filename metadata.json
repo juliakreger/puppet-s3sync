@@ -1,6 +1,6 @@
 {
   "name": "juliakreger-s3sync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "juliakreger",
   "summary": "A module that enables easy S3 based backups",
   "license": "Apache 2.0",
